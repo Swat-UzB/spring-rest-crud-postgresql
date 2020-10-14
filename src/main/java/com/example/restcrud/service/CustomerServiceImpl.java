@@ -24,10 +24,7 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public Optional<Customer> getCustomer(int id) {
-        Optional<Customer> customer = customerRepo.findById(id);
-        if (customer.isEmpty())
-            throw new CustomerNotFound("id="+ id);
-        return customer;
+        return customerRepo.findById(id);
     }
 
     @Override

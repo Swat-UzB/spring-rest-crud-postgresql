@@ -8,4 +8,5 @@ public class Mappings {
     // == constants ==
     public static final String API = "api";
     public static final String CUSTOMERS = "customers";
+    public static final String CUSTOMERS_CUSTOMERID = "customers/{customerId}";
 }

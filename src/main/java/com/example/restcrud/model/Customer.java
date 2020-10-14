@@ -3,6 +3,7 @@ package com.example.restcrud.model;
 import lombok.*;
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
 
 @Getter
 @Setter
@@ -10,6 +11,7 @@ import javax.persistence.*;
 @Table(name = "customer")
 @NoArgsConstructor
 @ToString
+@AllArgsConstructor
 public class Customer {
 
     // == fields ==
@@ -23,11 +25,6 @@ public class Customer {
     @Column(name = "last_name")
     private String lastname;
     @Column(name = "email")
+    @Email
     private String email;
-
-    public Customer(String firstname, String lastname, String email) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.email = email;
-    }
 }
