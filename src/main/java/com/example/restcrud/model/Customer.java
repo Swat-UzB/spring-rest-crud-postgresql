@@ -1,10 +1,10 @@
 package com.example.restcrud.model;
 
 import lombok.*;
+import org.hibernate.validator.constraints.UniqueElements;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
-import javax.validation.constraints.NotNull;
 
 @Getter
 @Setter
@@ -22,15 +22,15 @@ public class Customer {
     private int id;
 
     @Column(name = "first_name")
-    @NotNull
     private String firstname;
 
-    @NotNull
     @Column(name = "last_name")
     private String lastname;
 
-    @NotNull
     @Column(name = "email")
     @Email
     private String email;
+
+    @Column(name = "password")
+    private String password;
 }
