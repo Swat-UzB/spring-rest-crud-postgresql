@@ -41,6 +41,7 @@ public class CustomerController {
     @PostMapping(Mappings.CUSTOMERS)
     public ResponseEntity<?> createCustomers(@RequestBody Customer customer) {
         log.info("new customer : {}", customer);
+        customer.setId(0);
         customerService.saveCustomer(customer);
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
@@ -48,7 +49,17 @@ public class CustomerController {
     // http://localhost:8082/api/customers/{customerId}
     @DeleteMapping(Mappings.CUSTOMERS_CUSTOMERID)
     public ResponseEntity<?> deleteCustomer(@PathVariable int customerId) {
+        if (!customerService.getCustomer(customerId).isPresent())
+            throw new CustomerNotFound("Customer id not found : " + customerId);
         customerService.deleteCustomer(customerId);
-        return new ResponseEntity<>(HttpStatus.OK);
+        return new ResponseEntity<>("Deleted Customer id - "+customerId,HttpStatus.OK);
     }
+
+    // http://localhost:8082/api/customers
+    @PutMapping(Mappings.CUSTOMERS)
+    public ResponseEntity<?> updateCustomer(@RequestBody Customer customer) {
+        customerService.saveCustomer(customer);
+        return new ResponseEntity<>(customer, HttpStatus.OK);
+    }
+
 }

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5f7a85d-1e32-4c31-bede-30caad2dc353" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/java/academy/programming/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/src/main/java/com/example/jpaexampl/JpaExamplApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/src/main/java/com/example/jpaexampl/UserDaoServiceCommandLineRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/src/main/java/com/example/jpaexampl/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/src/main/java/com/example/jpaexampl/UserRepositoryCommandLineRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/src/main/java/com/example/jpaexampl/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/src/main/java/com/example/jpaexampl/service/UserDAOService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa-exampl/src/test/java/com/example/jpaexampl/JpaExamplApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../soapto-rest/src/main/java/com/example/soaptorest/request/GetError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcrud/RestCrudApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcrud/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcrud/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcrud/exception/CustomerRestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcrud/exception/CustomerRestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcrud/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcrud/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcrud/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcrud/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/restcrud/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/restcrud/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/restcrud/RestCrudApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Asus\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iqye2yEg3IS5YyzFztQI3HVVu1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/example/restcrud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Downloads\maven\rest-crud\src\main\resources\templates" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.restcrud" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.restcrud.service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.restcrud.exseption" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="RestCrudApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.restcrud.RestCrudApplication" />
+      <module name="rest-crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.restcrud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RestCrudApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5f7a85d-1e32-4c31-bede-30caad2dc353" name="Default Changelist" comment="" />
+      <created>1602649510003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602649510003</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2180" y="36" key="#com.intellij.ide.util.MemberChooser" timestamp="1602668054176">
+      <screen x="1366" y="-157" width="1920" height="1040" />
+    </state>
+    <state x="579" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-157.1920.1040@0.0.1366.728" timestamp="1602660769009" />
+    <state x="2180" y="36" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-157.1920.1040@1366.-157.1920.1040" timestamp="1602668054176" />
+    <state x="298" y="280" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602651276172">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="298" y="280" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.-157.1920.1040@0.0.1366.728" timestamp="1602651276172" />
+    <state x="474" y="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602651278694">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="474" y="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728/1366.-157.1920.1040@0.0.1366.728" timestamp="1602651278694" />
+    <state width="1877" height="326" key="GridCell.Tab.0.bottom" timestamp="1602682567597">
+      <screen x="1366" y="-157" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="63" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-157.1920.1040@0.0.1366.728" timestamp="1602666215597" />
+    <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-157.1920.1040@1366.-157.1920.1040" timestamp="1602682567597" />
+    <state width="1877" height="326" key="GridCell.Tab.0.center" timestamp="1602682567597">
+      <screen x="1366" y="-157" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="63" key="GridCell.Tab.0.center/0.0.1366.728/1366.-157.1920.1040@0.0.1366.728" timestamp="1602666215596" />
+    <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1366.728/1366.-157.1920.1040@1366.-157.1920.1040" timestamp="1602682567597" />
+    <state width="1877" height="326" key="GridCell.Tab.0.left" timestamp="1602682567597">
+      <screen x="1366" y="-157" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="63" key="GridCell.Tab.0.left/0.0.1366.728/1366.-157.1920.1040@0.0.1366.728" timestamp="1602666215595" />
+    <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1366.728/1366.-157.1920.1040@1366.-157.1920.1040" timestamp="1602682567597" />
+    <state width="1877" height="326" key="GridCell.Tab.0.right" timestamp="1602682567597">
+      <screen x="1366" y="-157" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="63" key="GridCell.Tab.0.right/0.0.1366.728/1366.-157.1920.1040@0.0.1366.728" timestamp="1602666215597" />
+    <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1366.728/1366.-157.1920.1040@1366.-157.1920.1040" timestamp="1602682567597" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1602651355266">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.-157.1920.1040@0.0.1366.728" timestamp="1602651355266" />
+    <state x="499" y="142" key="chooseDestDirectoryDialog" timestamp="1602654097375">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="142" key="chooseDestDirectoryDialog/0.0.1366.728/1366.-157.1920.1040@0.0.1366.728" timestamp="1602654097375" />
+    <state x="1842" y="74" width="945" height="968" key="run.anything.popup" timestamp="1602681782137">
+      <screen x="1366" y="-157" width="1920" height="1040" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728/1366.-157.1920.1040@0.0.1366.728" timestamp="1602649709778" />
+    <state x="1842" y="74" width="945" height="968" key="run.anything.popup/0.0.1366.728/1366.-157.1920.1040@1366.-157.1920.1040" timestamp="1602681782137" />
+  </component>
+</project>
