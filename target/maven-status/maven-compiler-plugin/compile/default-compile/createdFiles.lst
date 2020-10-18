@@ -3,6 +3,7 @@ com\example\restcrud\controller\CustomerController.class
 com\example\restcrud\service\CustomerServiceImpl.class
 com\example\restcrud\model\Customer.class
 com\example\restcrud\service\CustomerService.class
+com\example\restcrud\UserPrincipial.class
 com\example\restcrud\exception\CustomerNotFound.class
 com\example\restcrud\exception\CustomerRestExceptionHandler.class
 com\example\restcrud\util\Mappings.class

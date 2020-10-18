@@ -1,10 +1,10 @@
 package com.example.restcrud.model;
 
 import lombok.*;
-import org.hibernate.validator.constraints.UniqueElements;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
 
 @Getter
 @Setter
@@ -13,7 +13,7 @@ import javax.validation.constraints.Email;
 @NoArgsConstructor
 @ToString
 @AllArgsConstructor
-public class Customer {
+public class Customer  {
 
     // == fields ==
     @Id
@@ -21,16 +21,20 @@ public class Customer {
     @Column(name = "id")
     private int id;
 
+    @NotBlank
     @Column(name = "first_name")
     private String firstname;
 
+    @NotBlank
     @Column(name = "last_name")
     private String lastname;
 
+    @NotBlank
     @Column(name = "email")
     @Email
     private String email;
 
+    @NotBlank
     @Column(name = "password")
     private String password;
 }

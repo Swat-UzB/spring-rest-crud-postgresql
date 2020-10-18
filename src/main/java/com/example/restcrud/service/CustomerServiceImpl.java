@@ -24,11 +24,15 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public Optional<Customer> getCustomer(int id) {
+        if (customerRepo.findById(id).isEmpty())
+            throw new CustomerNotFound("Customer id not found : " + id);
         return customerRepo.findById(id);
     }
 
     @Override
     public void deleteCustomer(int id) {
+        if (customerRepo.findById(id).isEmpty())
+            throw new CustomerNotFound("Customer id not found : " + id);
         customerRepo.deleteById(id);
     }
 
@@ -36,7 +40,6 @@ public class CustomerServiceImpl implements CustomerService {
     public void updateCustomer(int id, Customer customer) {
         if (customerRepo.findById(id).isPresent()) {
             Optional<Customer> customer1 = customerRepo.findById(id);
-
         }
         customerRepo.findById(id);
 
@@ -45,6 +48,7 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public void saveCustomer(Customer customer) {
+        customer.setId(0);
         customerRepo.save(customer);
     }
 }

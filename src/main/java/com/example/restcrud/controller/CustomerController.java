@@ -25,23 +25,21 @@ public class CustomerController {
     // http://localhost:8082/api/customers
     @GetMapping(Mappings.CUSTOMERS)
     public ResponseEntity<?> getCustomers() {
-        return new ResponseEntity<>(customerService.getCustomers(), HttpStatus.OK);
+        return new ResponseEntity<>(customerService.getCustomers(),
+                HttpStatus.OK);
     }
 
     // http://localhost:8082/api/customers/{customerId}
     @GetMapping(Mappings.CUSTOMERS_CUSTOMERID)
     public ResponseEntity<?> getCustomer(@PathVariable int customerId) {
-        Optional<Customer> customer = customerService.getCustomer(customerId);
-        if (customer.isEmpty())
-            throw new CustomerNotFound("Customer id not found : " + customerId);
-        return new ResponseEntity<>(customer, HttpStatus.OK);
+        return new ResponseEntity<>(customerService.getCustomer(customerId),
+                HttpStatus.OK);
     }
 
     // http://localhost:8082/api/customers
     @PostMapping(Mappings.CUSTOMERS)
     public ResponseEntity<?> createCustomers(@RequestBody Customer customer) {
         log.info("new customer : {}", customer);
-        customer.setId(0);
         customerService.saveCustomer(customer);
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
@@ -49,8 +47,6 @@ public class CustomerController {
     // http://localhost:8082/api/customers/{customerId}
     @DeleteMapping(Mappings.CUSTOMERS_CUSTOMERID)
     public ResponseEntity<?> deleteCustomer(@PathVariable int customerId) {
-        if (!customerService.getCustomer(customerId).isPresent())
-            throw new CustomerNotFound("Customer id not found : " + customerId);
         customerService.deleteCustomer(customerId);
         return new ResponseEntity<>("Deleted Customer id - "+customerId,HttpStatus.OK);
     }
